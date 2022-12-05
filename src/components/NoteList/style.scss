@@ -1,0 +1,13 @@
+.note-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+
+    @media(max-width: 500px) {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+}

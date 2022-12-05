@@ -1,0 +1,8 @@
+.tag-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-gap: 0.25rem;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
